@@ -30,14 +30,24 @@ Copy and paste these prompts into a `Google Doc`. Steps on how to create a googl
 Describe the conversations you had this sprint with your product owner(s) and team.
 
 - Describe the product and features you plan to deliver.
+    Improved line graph scalability and social media sharing options.
+    Fix multiple display bugs that effect readability.
+    Aggregating chart modification controls to the control panel.
+    Adding new location based graphing data displayed on a map.
 - How did these conversations determine the features you will deliver during Labs?
+    The conversation not only solidified the feature adds and product adjustments
+    it also specified exactness in terms of design and usability.
 - How did your discussions change the way you viewed the product?
+    It allowed me to see the product vision through the eyes of the stake holder. 
+    This allows for an increased accuracy in the interpretation of ideas.
 
 ### Prompt 2
 
 Describe the technical or design discussions that shaped the long-term product vision.
 
 - **For data scientists and engineers:** Describe the technologies that you will use to build this product. Why do they fit the product vision?
+React framework is being used for the frontend architecture. Nivo and Rechart libraries are being used for chart
+implementation. Redux and Apollo will both be leveraged for their specific state management strengths. Ant Design maps will me be used to display data over a map. MySQL will be used because of the scale of the users and data. The API will use a node/express/knex architecture. GraphQL will be used on top of the api to increase interoptability and improve control over what is sent and retrieved from the back end.
 - **For UX designers:** Describe the questions that you are asking during user research. Why have you selected these questions to ask? What is the problem your team is trying to solve?
 
 You are expected to be able to answer all these questions. Your responses contribute to your Journal Entry grade. Skipping this section _will_ prevent you from passing this challenge.
